@@ -1,0 +1,29 @@
+{
+  "name": "real_estate_mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seydurrahman/real_estate_mern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seydurrahman/real_estate_mern/issues"
+  },
+  "homepage": "https://github.com/seydurrahman/real_estate_mern#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.9"
+  }
+}
